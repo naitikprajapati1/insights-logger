@@ -1,0 +1,45 @@
+{
+    "name": "insights-logger",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "A comprehensive backend logging tool for API monitoring, performance tracking, and custom logging in Node.js applications.",
+    "main": "index.js",
+    "keywords": [
+      "logging",
+      "backend",
+      "API monitoring",
+      "performance",
+      "Node.js",
+      "middleware",
+      "InsightLogger"
+    ],
+    "author": "naitik prajapati",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/naitikprajapati1/insights-logger.git"
+    },
+    "bugs": {
+      "url": "https://github.com/naitikprajapati1/insights-logger/issues"
+    },
+    "homepage": "https://github.com/naitikprajapati1/insights-logger#readme",
+    "scripts": {
+      "test": "node test/index.js",
+      "prepare": "echo 'Preparing package for distribution'",
+      "build": "echo 'Build process for InsightLogger if needed'",
+      "clean": "rm -rf node_modules && rm -rf logs",
+      "prepublishOnly": "npm run build"
+    },
+    "dependencies": {
+      "picocolors": "^1.0.0"
+    },
+    "files": [
+      "src",
+      "index.js",
+      "README.md"
+    ],
+    "engines": {
+      "node": ">=18.0.0"
+    }
+  }
+  
